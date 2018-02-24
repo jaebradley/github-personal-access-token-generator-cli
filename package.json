@@ -22,7 +22,9 @@
   },
   "keywords": [
     "github",
-    "cli"
+    "cli",
+    "personal access token",
+    "github personall access token"
   ],
   "author": "jae.b.bradley@gmail.com",
   "license": "MIT",
