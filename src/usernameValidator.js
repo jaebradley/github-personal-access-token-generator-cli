@@ -7,6 +7,6 @@ const isValidUsername = async (username) => {
   } catch (e) {
     return false;
   }
-}
+};
 
 export default isValidUsername;
