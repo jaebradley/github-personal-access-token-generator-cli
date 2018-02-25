@@ -6,17 +6,17 @@ notifications:
   email: true
 node_js:
   - '8'
-before_install:
-  - npm install -g npm@5
-  - npm install -g greenkeeper-lockfile@1
-before_script: greenkeeper-lockfile-update
-after_script: greenkeeper-lockfile-upload
-script:
-  - npm run compile
-  - npm run lint
-  - npm run test
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+jobs:
+  include:
+    - stage: test
+      before_install:
+        - npm install -g npm@5
+        - npm install -g greenkeeper-lockfile@1
+      script:
+        - npm run compile
+        - npm run lint
+        - npm run test
+      before_script: greenkeeper-lockfile-update
+      after_script: greenkeeper-lockfile-upload
+    - stage: deploy
+      script: npm run travis-deploy-once "npm run semantic-release"
