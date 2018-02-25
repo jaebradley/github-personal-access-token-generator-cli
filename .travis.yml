@@ -6,10 +6,6 @@ notifications:
   email: true
 node_js:
   - '8'
-addons:
-  apt:
-    packages:
-      - libsecret-1-dev
 before_install:
   - npm install -g npm@5
   - npm install -g greenkeeper-lockfile@1
@@ -20,7 +16,7 @@ script:
   - npm run lint
   - npm run test
 after_success:
-  - npm run semantic-release
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
