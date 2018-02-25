@@ -11,10 +11,11 @@
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "compile": "babel -d build/ src/ --ignore node_modules,*.test.js",
     "lint": "eslint --ext .js .",
-    "test": "jest --coverage",
+    "test": "jest --coverage --passWithNoTests",
     "prepublishOnly": "npm run compile",
     "semantic-commit": "commit",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "keywords": [
     "github",
-    "cli"
+    "cli",
+    "personal access token",
+    "github personal access token"
   ],
   "author": "jae.b.bradley@gmail.com",
   "license": "MIT",
@@ -47,17 +50,15 @@
     "eslint-plugin-import": "^2.8.0",
     "husky": "^0.14.3",
     "jest": "^22.0.5",
-    "semantic-release": "^11.0.2"
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.4"
   },
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
-    "chalk": "^2.3.0",
     "clipboardy": "^1.2.3",
-    "colors": "^1.1.2",
     "commander": "^2.12.1",
     "github": "^13.1.0",
     "inquirer": "^5.0.0",
-    "inquirer-autocomplete-prompt": "^0.12.0",
-    "keytar": "^4.0.5"
+    "inquirer-autocomplete-prompt": "^0.12.0"
   }
 }

@@ -26,6 +26,7 @@ const createPersonalAccessToken = async () => {
       reason,
     });
     await write(token);
+    console.log('💯  Copied personal access token to clipboard!');
   } catch (error) {
     if (isTwoFactorAuthenticationError(error)) {
       const { twoFactorAuthenticationCode } = await promptTwoFactorAuthenticationCode();
@@ -37,6 +38,7 @@ const createPersonalAccessToken = async () => {
         twoFactorAuthenticationCode,
       });
       await write(token);
+      console.log('💯  Copied personal access token to clipboard!');
     } else {
       throw error;
     }
