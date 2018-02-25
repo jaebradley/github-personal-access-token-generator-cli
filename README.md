@@ -1,5 +1,8 @@
 # github-personal-access-token-generator-cli
 
+![alt-text](https://imgur.com/NBzcu8N.png)
+![alt-text](https://imgur.com/ZJyz9KJ.png)
+
 [A GitHub personal access token is pretty seamless to do from the web UI](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/).
 
 However, if you're a command line freak like me and want to create a personal access token quickly without having to leave the Terminal...
