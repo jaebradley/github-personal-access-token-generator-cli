@@ -1,5 +1,7 @@
 # github-personal-access-token-generator-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/github-personal-access-token-generator-cli.svg)](https://greenkeeper.io/)
+
 ![alt-text](https://imgur.com/NBzcu8N.png)
 ![alt-text](https://imgur.com/ZJyz9KJ.png)
 
