@@ -1,4 +1,4 @@
-import GitHub from 'github';
+import GitHub from '@octokit/rest';
 import {
   READ_ONLY_SCOPE,
   REPOSITORY_SCOPE,
