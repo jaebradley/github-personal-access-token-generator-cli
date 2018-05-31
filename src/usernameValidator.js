@@ -1,4 +1,4 @@
-import GitHub from 'github';
+import GitHub from '@octokit/rest';
 
 const isValidUsername = async (username) => {
   try {
