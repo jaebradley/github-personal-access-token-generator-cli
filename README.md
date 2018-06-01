@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/github-personal-access-token-generator-cli.svg)](https://greenkeeper.io/)
 [![codecov](https://codecov.io/gh/jaebradley/github-personal-access-token-generator-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/github-personal-access-token-generator-cli)
+[![npm](https://img.shields.io/npm/v/github-personal-access-token-generator-cli.svg)](https://www.npmjs.com/package/github-personal-access-token-generator-cli)
+[![npm](https://img.shields.io/npm/dt/github-personal-access-token-generator-cli.svg)](https://www.npmjs.com/package/github-personal-access-token-generator-cli)
 
 ![alt-text](https://imgur.com/NBzcu8N.png)
 ![alt-text](https://imgur.com/ZJyz9KJ.png)
@@ -19,7 +21,7 @@ npm install github-personal-access-token-generator-cli -g
 ## Usage
 
 ```
-ghpat create
+ghpat
 ```
 
 You will be asked for
