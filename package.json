@@ -50,7 +50,7 @@
     "@commitlint/cli": "^6.0.1",
     "@commitlint/config-angular": "^6.1.2",
     "@commitlint/prompt": "^6.0.1",
-    "@commitlint/prompt-cli": "^6.0.1",
+    "@commitlint/prompt-cli": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.0",
     "babel-preset-minify": "^0.4.0",
