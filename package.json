@@ -47,10 +47,10 @@
     "@babel/plugin-transform-runtime": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
     "@babel/runtime": "^7.0.0-beta.49",
-    "@commitlint/cli": "^6.0.1",
-    "@commitlint/config-angular": "^6.1.2",
-    "@commitlint/prompt": "^6.0.1",
-    "@commitlint/prompt-cli": "^6.0.1",
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-angular": "^7.0.1",
+    "@commitlint/prompt": "^7.0.0",
+    "@commitlint/prompt-cli": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.0",
     "babel-preset-minify": "^0.4.0",
@@ -68,7 +68,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "clipboardy": "^1.2.3",
     "commander": "^2.12.1",
-    "inquirer": "^5.0.0",
+    "inquirer": "^6.0.0",
     "inquirer-autocomplete-prompt": "^0.12.0"
   }
 }
