@@ -69,6 +69,6 @@
     "clipboardy": "^1.2.3",
     "commander": "^2.12.1",
     "inquirer": "^6.0.0",
-    "inquirer-autocomplete-prompt": "^0.12.0"
+    "inquirer-autocomplete-prompt": "^1.0.0"
   }
 }
