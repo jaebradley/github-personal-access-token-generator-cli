@@ -67,7 +67,7 @@
     "@octokit/rest": "^15.8.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "clipboardy": "^1.2.3",
-    "commander": "^2.12.1",
+    "commander": "^4.0.1",
     "inquirer": "^6.0.0",
     "inquirer-autocomplete-prompt": "^1.0.0"
   }
