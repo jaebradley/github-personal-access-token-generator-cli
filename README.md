@@ -42,3 +42,13 @@ Yeah, they're not.
 This utility is mostly to create personal access tokens quickly - most of the time (I would argue), you need to set one of the "overriding" scopes rather than any of the "sub-scopes".
 
 If this is something that's not the case for end-users, this can be added.
+Update:#import{ file; 
+Path: [GetFile:"/storage/emulated/0/ASTRO/projects/Nu
+Wallpaper/src" ;]
+Fn: import to Read Me file apply <operations>;
+Value:update Project Folder;
+Name:NuWallpaper/src;
+ImportLocation: Script string;
+Value: updates;
+}
+ 
